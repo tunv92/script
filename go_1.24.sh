@@ -6,5 +6,5 @@ echo "export GO_HOME=$(pwd)/go/" >> ~/.bashrc
 echo 'export PATH=$GO_HOME/bin:$PATH' >> ~/.bashrc
 mkdir gopath
 echo 'export GOPATH=$(pwd)/gopath/' >> ~/.bashrc
-echo "Vui lòng chạy lệnh sau để cập nhật môi trường hiện tại:"
+echo "Please run this command to update environment vars:"
 echo "source ~/.bashrc"
